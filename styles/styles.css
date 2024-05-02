@@ -112,12 +112,19 @@ img {
     background-position: center;
     padding: 50px;
     color: antiquewhite;
-    overflow: auto;
-}
-.expertise-content {
+    /* Add fixed background */
+    background-attachment: fixed;
+  }
+  
+  .expertise-content {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.3);
-}
+    /* Enable scrolling if content overflows */
+    overflow: auto;
+    /* Adjust height as needed */
+    height: 400px; 
+  }
+  
 
 
