@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2e2d2a;
+    font-family: "Exo 2", sans-serif;
+    color: antiquewhite;
+}
+
+.logo {
+    height: 150px;
+    width: 200px;
+    margin-top: 80px;
+}
+
+
+.nav-bar {
+    background-color: #454443;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+.nav-bar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar li {
+    height: 50px;
+}
+
+.nav-bar a {
+    height: 100%;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.nav-bar li:first-child {
+    margin-right: auto;
+}
+
+header {
+    background-color: #454443;
+    color: antiquewhite;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+  
+img {
+    width: 50vh;
+    height: 70vh;
+    margin-bottom: 20px;
+    border-radius: 7%;
+}
+  
+.text-content {
+    text-align: center;
+    padding-left: 50px;
+}
+  
+.text-content h2 {
+    margin-bottom: 10px;
+    margin-top: 160px;
+    padding-left: 50px;
+}
+  
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.buttons a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+  
+.buttons a:hover {
+    background-color: #2e2d2a;
+    border: solid 5px white;
+}
+
+.expertise {
+    background-image: url(../images/webp/pexels-designecologist-2526105.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: antiquewhite;
+    overflow: auto;
+}
+.expertise-content {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
