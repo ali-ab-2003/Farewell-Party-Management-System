@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2e2d2a;
+    font-family: "Exo 2", sans-serif;
+    color: antiquewhite;
+}
+
+.logo {
+    height: 150px;
+    width: 200px;
+    margin-top: 80px;
+}
+
+
+.nav-bar {
+    background-color: #454443;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+.nav-bar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar li {
+    height: 50px;
+}
+
+.nav-bar a {
+    height: 100%;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.nav-bar li:first-child {
+    margin-right: auto;
+}
+
+.nav-bar-normal {
+    background-color: #454443;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+
+.logo-normal {
+    height: 120px;
+    width: 200px;
+    margin-top: 40px;
+   margin-left: -10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+    margin: auto;
+}
+
+.login-header {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.login-header header {
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.input-box .input-field {
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: .3s;
+}
+
+
+::placeholder {
+    font-weight: 500;
+    color: #2e2d2a;
+}
+
+.input-field:focus {
+    width: 105%;
+}
+
+.forget-pass {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+#checkbox-sec {
+    padding-left: 20px;
+}
+
+#check {
+    margin-right: 10px;
+}
+
+#rem {
+    margin-right: auto;
+}
+
+#forgot-pass {
+    margin-left: 40px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section a {
+    color: #454443;
+}
+
+.input-submission {
+    position: relative;
+}
+
+.submit-btn {
+    width: 320px;
+    height: 60px;
+    font-weight: 600;
+    color: antiquewhite;
+    background: #454443;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 50px;
+}
+
+/* .input-submission label {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: antiquewhite;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+} */
+
+.submit-btn:hover {
+    background: black;
+    transform: scale(1.05, 1);
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.signup-link a {
+    color: #454443;
+    font-weight: 600;
+}
