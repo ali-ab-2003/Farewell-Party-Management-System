@@ -78,12 +78,19 @@ body {
     margin: 100px 0 20px 0;
 }
 
+.signup-header header {
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
 .login-header {
     text-align: center;
     margin: 20px 0 20px 0;
 }
 
-.signup-header header {
+.login-header header {
     font-size: 30px;
     color: antiquewhite;
     font-weight: 600;
