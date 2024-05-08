@@ -1,10 +1,82 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
 }
 
 body {
+    display: flex;
     background-color: #2e2d2a;
     font-family: "Exo 2", sans-serif;
     color: antiquewhite;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: #808080;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar:hover {
+    width: 240px;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+
+.options {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.options li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.options li:hover,
+.active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.options a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.options a span {
+    overflow: hidden;
+}
+
+.options a i {
+    font-size: 1.2rem;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
