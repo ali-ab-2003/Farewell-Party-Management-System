@@ -163,6 +163,12 @@ body {
     font-size: 15px;
 }
 
+.main-title2 {
+    color: #777777;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
 .card {
     background: #c1c1cc;
     border-radius: 10px;
@@ -173,6 +179,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
@@ -220,5 +227,61 @@ body {
 
 .profile-pic {
     border: 3px solid #c1c1cc;
+}
+
+.tabular-wrapper {
+    background: #9897a9;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.table-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #2e2d2a;
+    color: #fff;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody {
+    background: #c1c1cc;
+}
+
+td {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+
+tfoot {
+    background: rgba(113, 99, 186, 255);
+    font-weight: bold;
+    color: #fff;
+}
+
+tfoot td {
+    padding: 15px;
+}
+
+.table-container button {
+    color: green;
+    background: none;
+    cursor: pointer;
 }
 
