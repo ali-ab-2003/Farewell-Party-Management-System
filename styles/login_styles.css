@@ -102,6 +102,18 @@ body {
     margin-left: 50px;
 }
 
+.perf-vol-signup-header {
+    text-align: center;
+    margin: 370px 0 20px 0;
+}
+
+.perf-vol-signup-header header {
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
 .input-description {
     font-size: 15px;
     color: antiquewhite;
@@ -270,8 +282,8 @@ section a {
     height: var(--height);
     border-radius: var(--border-radius);
     position: relative;
-    /* box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05); */
     padding: 5px 85px;
+    padding-bottom: 10px;
     display: grid;
     grid-template-columns: 30px auto;
     align-items: center;
