@@ -15,6 +15,11 @@ body {
     margin-top: 80px;
 }
 
+.logo-about {
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+}
 
 .nav-bar {
     background-color: #454443;
@@ -324,6 +329,27 @@ hr {
     100% {
         left: 100%;
     }
+}
+
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 
