@@ -90,6 +90,18 @@ body {
     margin-left: 50px;
 }
 
+.admin-vol-signup-header {
+    text-align: center;
+    margin: 150px 0 20px 0;
+}
+
+.admin-vol-signup-header header {
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
 .input-description {
     font-size: 15px;
     color: antiquewhite;
@@ -248,8 +260,8 @@ section a {
 #checklist {
     --background: #2e2d2a;
     --text: antiquewhite;
-    --check: #4f29f0;
-    --disabled: #c3c8de;
+    --check: #fff;
+    --disabled: #fff;
     --width: 100px;
     --height: 180px;
     --border-radius: 10px;
