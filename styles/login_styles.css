@@ -90,12 +90,17 @@ body {
     margin-left: 50px;
 }
 
+.faculty-signup-header {
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+
 .admin-vol-signup-header {
     text-align: center;
     margin: 150px 0 20px 0;
 }
 
-.admin-vol-signup-header header {
+.admin-vol-signup-header, .faculty-signup-header header {
     font-size: 30px;
     color: antiquewhite;
     font-weight: 600;
